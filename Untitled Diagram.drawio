@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-12T14:58:42.685Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="X5YNo82joNiYg5-ukYCO" version="14.4.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-12T15:00:04.585Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="beNUtdvJdfkoy1Co3mkc" version="14.4.7" type="github" pages="2">
   <diagram id="bTMv2-6C5ApKrSas61GZ" name="Arq">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -266,6 +266,17 @@
         <mxCell id="9WbnOrDxuOPGSCxr65Gx-28" value="Publish hotlistfile" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9WbnOrDxuOPGSCxr65Gx-27">
           <mxGeometry x="0.1279" y="-3" relative="1" as="geometry">
             <mxPoint x="-8.5" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9WbnOrDxuOPGSCxr65Gx-30" value="Publish the hotlist &lt;br&gt;inconsistencies to kafka topic*" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9WbnOrDxuOPGSCxr65Gx-1" source="9WbnOrDxuOPGSCxr65Gx-11" target="9WbnOrDxuOPGSCxr65Gx-12">
+          <mxGeometry x="-0.0221" y="20" relative="1" as="geometry">
+            <mxPoint x="423.5" y="325" as="sourcePoint" />
+            <mxPoint x="559.5" y="325" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="310" />
+              <mxPoint x="490" y="310" />
+            </Array>
+            <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
