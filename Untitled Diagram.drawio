@@ -1,1 +1,185 @@
-<mxfile host="app.diagrams.net" modified="2021-03-12T13:55:43.416Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" version="14.4.7" etag="FCwdN7FSZP9vON9cjwWn" type="github"><diagram id="bTMv2-6C5ApKrSas61GZ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-12T13:57:31.234Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="ZsUOSZpUEaBYh6WMKOGi" version="14.4.7" type="github">
+  <diagram id="bTMv2-6C5ApKrSas61GZ" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XqzR01Ey4YFzRxWON18p-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="XqzR01Ey4YFzRxWON18p-37" target="XqzR01Ey4YFzRxWON18p-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="265" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-2" value="use api" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#3333FF;" vertex="1" connectable="0" parent="XqzR01Ey4YFzRxWON18p-1">
+          <mxGeometry x="-0.1467" y="2" relative="1" as="geometry">
+            <mxPoint x="5" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="XqzR01Ey4YFzRxWON18p-5" target="XqzR01Ey4YFzRxWON18p-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="XqzR01Ey4YFzRxWON18p-5" target="XqzR01Ey4YFzRxWON18p-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-5" value="data-tools-api" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;" vertex="1" parent="1">
+          <mxGeometry x="172" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="XqzR01Ey4YFzRxWON18p-8" target="XqzR01Ey4YFzRxWON18p-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-7" value="1. get tenants&lt;br&gt;2. get servers" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#3333FF;" vertex="1" connectable="0" parent="XqzR01Ey4YFzRxWON18p-6">
+          <mxGeometry x="0.3077" y="1" relative="1" as="geometry">
+            <mxPoint x="39" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-8" value="seon-master" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="172" y="322" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XqzR01Ey4YFzRxWON18p-15" target="XqzR01Ey4YFzRxWON18p-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="759" y="291" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-10" value="publish a hotlist file" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#3333FF;" vertex="1" connectable="0" parent="XqzR01Ey4YFzRxWON18p-9">
+          <mxGeometry x="-0.3808" relative="1" as="geometry">
+            <mxPoint x="16" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="XqzR01Ey4YFzRxWON18p-15" target="XqzR01Ey4YFzRxWON18p-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-12" value="1. publish hotlist-event&lt;br&gt;2. publish inconsistencies-event" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#3333FF;" vertex="1" connectable="0" parent="XqzR01Ey4YFzRxWON18p-11">
+          <mxGeometry x="0.3403" y="2" relative="1" as="geometry">
+            <mxPoint x="83" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#3333FF;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="XqzR01Ey4YFzRxWON18p-15" target="XqzR01Ey4YFzRxWON18p-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#ffcc99;strokeColor=#FF9933;" edge="1" parent="1" source="XqzR01Ey4YFzRxWON18p-15" target="XqzR01Ey4YFzRxWON18p-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-15" value="fme" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="172" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XqzR01Ey4YFzRxWON18p-19" target="XqzR01Ey4YFzRxWON18p-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-17" value="1. set hotlist &lt;br&gt;2.&amp;nbsp; set inconsistencies" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#3333FF;" vertex="1" connectable="0" parent="XqzR01Ey4YFzRxWON18p-16">
+          <mxGeometry x="-0.0857" relative="1" as="geometry">
+            <mxPoint x="60" y="107.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-18" value="1. subscribe hotlist-event&lt;br&gt;2. subscribe inconsistencies-event" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#3333FF;" edge="1" parent="1" source="XqzR01Ey4YFzRxWON18p-19" target="XqzR01Ey4YFzRxWON18p-27">
+          <mxGeometry x="0.4096" y="-85" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-19" value="Argus-api" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="360" y="526" width="120" height="58.5" as="geometry" />
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-20" value="vmax DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="360" y="910" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-21" value="1. Package to connect with cloud storage https://hub.safe.com/publishers/safe/packages/azurestorage&lt;br&gt;2. FME will generate token to access cloud-storage&lt;br&gt;3. Give access to FME to write, read the blob storage" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="439" y="10" width="330" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-22" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XqzR01Ey4YFzRxWON18p-26" target="XqzR01Ey4YFzRxWON18p-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="759" y="351" as="targetPoint" />
+            <mxPoint x="760" y="440" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-23" value="5. read hotlist file" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#3333FF;" vertex="1" connectable="0" parent="XqzR01Ey4YFzRxWON18p-22">
+          <mxGeometry x="-0.0455" y="2" relative="1" as="geometry">
+            <mxPoint x="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontColor=#3333FF;" edge="1" parent="1" source="XqzR01Ey4YFzRxWON18p-26" target="XqzR01Ey4YFzRxWON18p-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-25" value="&lt;div style=&quot;text-align: left&quot;&gt;3. https request to /hotlist/&amp;lt;hotlistid&amp;gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp;(redirect to azure cloud)&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;a href=&quot;https://server/hotlist/&quot; style=&quot;font-size: 12px ; text-align: center&quot;&gt;https://server/hotlist/&lt;/a&gt;&lt;span style=&quot;background-color: rgba(22 , 21 , 22 , 0.04) ; font-size: 12px ; text-align: center&quot;&gt;&amp;lt;hotlist_id&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;background-color: rgba(22 , 21 , 22 , 0.04) ; font-size: 12px ; text-align: center&quot;&gt;302&lt;/span&gt;&lt;span style=&quot;background-color: rgba(22 , 21 , 22 , 0.04) ; font-size: 12px ; text-align: center&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://signedurl/&quot; style=&quot;background-color: rgba(22 , 21 , 22 , 0.04) ; font-size: 12px ; text-align: center&quot;&gt;https://signedURL&lt;/a&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontStyle=0;fontColor=#3333FF;" vertex="1" connectable="0" parent="XqzR01Ey4YFzRxWON18p-24">
+          <mxGeometry x="0.0321" y="2" relative="1" as="geometry">
+            <mxPoint x="50" y="-33" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-26" value="H1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="706" y="417.5" width="120" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-27" value="kafka topics" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="201.25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#3333FF;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="XqzR01Ey4YFzRxWON18p-29" target="XqzR01Ey4YFzRxWON18p-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-29" value="azure cloud storage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="706" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-30" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="XqzR01Ey4YFzRxWON18p-32" target="XqzR01Ey4YFzRxWON18p-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-31" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;set access-key&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#3333FF;" vertex="1" connectable="0" parent="XqzR01Ey4YFzRxWON18p-30">
+          <mxGeometry x="-0.0889" relative="1" as="geometry">
+            <mxPoint x="48.55" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-32" value="vMax" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="171" y="428.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-33" value="1. one storage for FME&amp;nbsp;&lt;br&gt;2. container per Tenant" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="534" y="201.25" width="140" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-34" value="1. add config server integration" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="9" y="280" width="160" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-35" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="20" y="190" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-36" value="argus-ui" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="XqzR01Ey4YFzRxWON18p-35">
+          <mxGeometry width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-37" value="data-tools-ui" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XqzR01Ey4YFzRxWON18p-35">
+          <mxGeometry x="10" y="25" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-38" value="&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: rgb(255 , 242 , 204) ; font-size: 15px&quot;&gt;send load hotlist command to all devices&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: rgb(255 , 242 , 204) ; font-size: 15px&quot;&gt;send alpr request to one H1&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: rgb(255 , 242 , 204) ; font-size: 15px&quot;&gt;send hotlist disable command (all devices)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: rgb(255 , 242 , 204) ; font-size: 15px&quot;&gt;create alpr event and upload images&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#d6b656;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#FFF2CC;" vertex="1" parent="1">
+          <mxGeometry x="20" y="880" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-39" value="FME must be migrated to Azure&lt;br&gt;&amp;nbsp;" style="text;html=1;strokeColor=#36393d;fillColor=#ffcc99;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="160" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;fontColor=#3333FF;" edge="1" parent="1" source="XqzR01Ey4YFzRxWON18p-19" target="XqzR01Ey4YFzRxWON18p-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="460.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-41" value="1. (add, update, remove) desire properties" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#3333FF;rotation=0;" vertex="1" connectable="0" parent="XqzR01Ey4YFzRxWON18p-40">
+          <mxGeometry x="0.1429" relative="1" as="geometry">
+            <mxPoint x="112" y="-152.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fontColor=#3333FF;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="XqzR01Ey4YFzRxWON18p-26" target="XqzR01Ey4YFzRxWON18p-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-43" value="2. verifiying possible device twin changes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#3333FF;" vertex="1" connectable="0" parent="XqzR01Ey4YFzRxWON18p-42">
+          <mxGeometry x="-0.6578" y="-2" relative="1" as="geometry">
+            <mxPoint x="-104" y="112.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-44" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="506" y="770" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-45" value="iot hub" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;" vertex="1" parent="XqzR01Ey4YFzRxWON18p-44">
+          <mxGeometry width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-46" value="device twin" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XqzR01Ey4YFzRxWON18p-44">
+          <mxGeometry y="30" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-47" value="&lt;div&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;quot;monaco&amp;quot;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;background-color: rgb(255 , 242 , 204)&quot;&gt;{&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;quot;monaco&amp;quot;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;background-color: rgb(255 , 242 , 204)&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;font color=&quot;#3333ff&quot;&gt;&quot;config&quot;&lt;/font&gt;: {&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;quot;monaco&amp;quot;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;background-color: rgb(255 , 242 , 204)&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;font color=&quot;#3333ff&quot;&gt;&quot;hotlistUrl&quot;&lt;/font&gt;: &lt;font color=&quot;#ff3333&quot;&gt;&quot;&lt;a href=&quot;https://server/hotlist/&quot;&gt;&lt;span class=&quot;s2&quot;&gt;https://server/hotlist/&lt;/span&gt;&lt;/a&gt;&quot;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;quot;monaco&amp;quot;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;background-color: rgb(255 , 242 , 204)&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &lt;/span&gt;},&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;quot;monaco&amp;quot;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;background-color: rgb(255 , 242 , 204)&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &lt;/span&gt;&lt;font color=&quot;#3333ff&quot;&gt;&quot;hotlists&quot;&lt;/font&gt;: [&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;quot;monaco&amp;quot;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;background-color: rgb(255 , 242 , 204)&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;{&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;quot;monaco&amp;quot;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;background-color: rgb(255 , 242 , 204)&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;font color=&quot;#3333ff&quot;&gt;&quot;id&quot;&lt;/font&gt;: &lt;font color=&quot;#ff3333&quot;&gt;&quot;GUID&quot;&lt;/font&gt;,&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;quot;monaco&amp;quot;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;background-color: rgb(255 , 242 , 204)&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;font color=&quot;#3333ff&quot;&gt;&quot;lasupdated&quot;&lt;/font&gt;: &lt;font color=&quot;#ff3333&quot;&gt;&quot;1615316228&quot;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;quot;monaco&amp;quot;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;background-color: rgb(255 , 242 , 204)&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;},&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;quot;monaco&amp;quot;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;background-color: rgb(255 , 242 , 204)&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;{&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;quot;monaco&amp;quot;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;background-color: rgb(255 , 242 , 204)&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;font color=&quot;#3333ff&quot;&gt;&quot;id&quot;&lt;/font&gt;: &lt;font color=&quot;#ff3333&quot;&gt;&quot;GUID2&quot;&lt;/font&gt;,&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;quot;monaco&amp;quot;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;background-color: rgb(255 , 242 , 204)&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;font color=&quot;#3333ff&quot;&gt;&quot;lasupdated&quot;&lt;/font&gt;: &lt;font color=&quot;#ff3333&quot;&gt;&quot;1615316228&quot;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;quot;monaco&amp;quot;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;background-color: rgb(255 , 242 , 204)&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;}&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;quot;monaco&amp;quot;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;background-color: rgb(255 , 242 , 204)&quot;&gt;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &lt;/span&gt;]&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p2&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;quot;monaco&amp;quot;&quot;&gt;&lt;span class=&quot;s2&quot; style=&quot;background-color: rgb(255 , 242 , 204)&quot;&gt;}&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#d6b656;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#FFF2CC;" vertex="1" parent="1">
+          <mxGeometry x="20" y="530" width="330" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="XqzR01Ey4YFzRxWON18p-48" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="574" y="463.5" width="20" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
