@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2021-03-12T13:57:31.234Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="ZsUOSZpUEaBYh6WMKOGi" version="14.4.7" type="github">
-  <diagram id="bTMv2-6C5ApKrSas61GZ" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2021-03-12T14:58:42.685Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="X5YNo82joNiYg5-ukYCO" version="14.4.7" type="github" pages="2">
+  <diagram id="bTMv2-6C5ApKrSas61GZ" name="Arq">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -178,6 +178,95 @@
         </mxCell>
         <mxCell id="XqzR01Ey4YFzRxWON18p-48" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="574" y="463.5" width="20" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="u-hYcQZJXqvZtkmNfRlF" name="Manual Upload">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="9WbnOrDxuOPGSCxr65Gx-0" />
+        <mxCell id="9WbnOrDxuOPGSCxr65Gx-1" parent="9WbnOrDxuOPGSCxr65Gx-0" />
+        <mxCell id="9WbnOrDxuOPGSCxr65Gx-14" value="Manual Upload&lt;br&gt;&amp;nbsp;Request" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9WbnOrDxuOPGSCxr65Gx-1" source="9WbnOrDxuOPGSCxr65Gx-8" target="9WbnOrDxuOPGSCxr65Gx-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="180" />
+              <mxPoint x="140" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9WbnOrDxuOPGSCxr65Gx-8" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;size=30;" vertex="1" parent="9WbnOrDxuOPGSCxr65Gx-1">
+          <mxGeometry x="20" y="70" width="20" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="9WbnOrDxuOPGSCxr65Gx-16" value="Send hotlist file &lt;br&gt;and mapping details" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9WbnOrDxuOPGSCxr65Gx-1" source="9WbnOrDxuOPGSCxr65Gx-9" target="9WbnOrDxuOPGSCxr65Gx-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9WbnOrDxuOPGSCxr65Gx-9" value=":Argus UI" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="9WbnOrDxuOPGSCxr65Gx-1">
+          <mxGeometry x="80" y="80" width="100" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="9WbnOrDxuOPGSCxr65Gx-17" value="Send hotlist file to&lt;br&gt;transformation and consolidation" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9WbnOrDxuOPGSCxr65Gx-1" source="9WbnOrDxuOPGSCxr65Gx-10" target="9WbnOrDxuOPGSCxr65Gx-11">
+          <mxGeometry x="0.1371" y="30" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="270" />
+              <mxPoint x="400" y="270" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9WbnOrDxuOPGSCxr65Gx-10" value=":Datatools-API" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="9WbnOrDxuOPGSCxr65Gx-1">
+          <mxGeometry x="230" y="80" width="100" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="9WbnOrDxuOPGSCxr65Gx-18" value="Publish the hotlist &lt;br&gt;event to kafka topic*" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9WbnOrDxuOPGSCxr65Gx-1" source="9WbnOrDxuOPGSCxr65Gx-11" target="9WbnOrDxuOPGSCxr65Gx-12">
+          <mxGeometry x="-0.0221" y="15" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="250" />
+              <mxPoint x="510" y="250" />
+            </Array>
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9WbnOrDxuOPGSCxr65Gx-23" value="Get Azure key" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9WbnOrDxuOPGSCxr65Gx-1" source="9WbnOrDxuOPGSCxr65Gx-11" target="9WbnOrDxuOPGSCxr65Gx-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="340" />
+              <mxPoint x="530" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9WbnOrDxuOPGSCxr65Gx-11" value=":FME-Server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="9WbnOrDxuOPGSCxr65Gx-1">
+          <mxGeometry x="379" y="80" width="70" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="9WbnOrDxuOPGSCxr65Gx-12" value=":Kafka" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="9WbnOrDxuOPGSCxr65Gx-1">
+          <mxGeometry x="500" y="80" width="100" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="9WbnOrDxuOPGSCxr65Gx-24" value="Return azure connection key to Blob Storage&lt;br&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9WbnOrDxuOPGSCxr65Gx-1" source="9WbnOrDxuOPGSCxr65Gx-22" target="9WbnOrDxuOPGSCxr65Gx-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="370" />
+              <mxPoint x="510" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9WbnOrDxuOPGSCxr65Gx-22" value=":Vault" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="9WbnOrDxuOPGSCxr65Gx-1">
+          <mxGeometry x="620" y="80" width="100" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="9WbnOrDxuOPGSCxr65Gx-13" value=":Azure BLOB Storage" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="9WbnOrDxuOPGSCxr65Gx-1">
+          <mxGeometry x="727" y="80" width="100" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="9WbnOrDxuOPGSCxr65Gx-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9WbnOrDxuOPGSCxr65Gx-1" source="9WbnOrDxuOPGSCxr65Gx-11" target="9WbnOrDxuOPGSCxr65Gx-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="390" as="targetPoint" />
+            <mxPoint x="413.5" y="460" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="560" y="410" />
+              <mxPoint x="560" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9WbnOrDxuOPGSCxr65Gx-28" value="Publish hotlistfile" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9WbnOrDxuOPGSCxr65Gx-27">
+          <mxGeometry x="0.1279" y="-3" relative="1" as="geometry">
+            <mxPoint x="-8.5" y="-13" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
